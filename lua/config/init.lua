@@ -14,6 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Initalize globals
 require('config.globals')
+-- Define neovims behavior ie its settings
+require('config.options')
 
 local opts = {
 	defaults = {
