@@ -16,3 +16,7 @@ keymap.set('n','<C-h>','<C-w>h',opts('Navigate to right pane'))
 keymap.set('n','<C-j>','<C-w>j',opts('Navigate to top pane'))
 keymap.set('n','<C-k>','<C-w>k',opts('Navigate to bottom pane'))
 keymap.set('n','<C-l>','<C-w>l',opts('Navigate to left pane'))
+
+-- Window Management
+keymap.set('n','<leader>sv',':vsplit<Cr>',opts('Split window vertically'))
+keymap.set('n','<leader>sh',':split<Cr>',opts('Split window horizontally'))
